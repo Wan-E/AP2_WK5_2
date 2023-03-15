@@ -561,7 +561,8 @@
 		7AF54A7EAD5D4CB38E6BBA8C /* parameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchanges.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h; sourceTree = "<absolute>"; };
 		7BCB5AA222704811B49D03C9 /* SMTG_PlatformToolset.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = SMTG_PlatformToolset.cmake; path = /Users/alfiebradic/vst3sdk/cmake/modules/SMTG_PlatformToolset.cmake; sourceTree = "<absolute>"; };
 		7C084C8F34E44705AB88D808 /* silenceprocessing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = silenceprocessing.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/processing/silenceprocessing.cpp; sourceTree = "<absolute>"; };
-		7D90F83129C200DA005337D2 /* ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ringbuffer.h; sourceTree = "<group>"; };
+		7D6898AA29C20982001525D5 /* ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ringbuffer.h; path = source/ringbuffer.h; sourceTree = "<group>"; };
+		7D6898AB29C20EA1001525D5 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = CMakeLists.txt; path = build/CMakeLists.txt; sourceTree = "<group>"; };
 		7D90F83229C202F5005337D2 /* delay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delay.h; sourceTree = "<group>"; };
 		7E488CB8413A4C60BD2E3697 /* controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controller.h; path = source/controller.h; sourceTree = SOURCE_ROOT; };
 		7F4BDE48274C40C99F369643 /* processformat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processformat.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/processing/processformat.h; sourceTree = "<absolute>"; };
@@ -692,7 +693,6 @@
 		E1AFB5183B6E4E85B587662E /* vst2persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vst2persistence.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp; sourceTree = "<absolute>"; };
 		E1EFEF08CAC5493A9249A299 /* moduleinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = moduleinfo.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/moduleinfo/moduleinfo.h; sourceTree = "<absolute>"; };
 		E30D3F52BB3A4920AA0F8EA0 /* libsdk_common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4DBEF81ADCD44139E13F4F7 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		E520609688FE4102A244E241 /* threadchecker_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_win32.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp; sourceTree = "<absolute>"; };
 		E61A7CA3EC964F4784EDC125 /* testing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = testing.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/utility/testing.cpp; sourceTree = "<absolute>"; };
 		E76DE385B80B47BAA3EAF721 /* bypasspersistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bypasspersistence.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/state/bypasspersistence.cpp; sourceTree = "<absolute>"; };
@@ -716,7 +716,6 @@
 		F5598D66B8FC4DFAA9575EF9 /* ivstmidicontrollers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidicontrollers.h; path = /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h; sourceTree = "<absolute>"; };
 		F7CFC314837D48A6A2E89BAE /* ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ustring.h; path = /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.h; sourceTree = "<absolute>"; };
 		F8140AE15EB947A5A82D53D8 /* parameterchangestest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchangestest.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/hosting/test/parameterchangestest.cpp; sourceTree = "<absolute>"; };
-		F859678C24E544E381F7CA2E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		F8897513F8D34D689039B1C9 /* geoconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geoconstants.h; path = /Users/alfiebradic/vst3sdk/pluginterfaces/base/geoconstants.h; sourceTree = "<absolute>"; };
 		F893225CC4064FA5A95DBA4B /* processformat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processformat.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/processing/processformat.cpp; sourceTree = "<absolute>"; };
 		F8C5DA4EF7AE4BFEB92F806E /* vsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteditcontroller.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/vsteditcontroller.h; sourceTree = "<absolute>"; };
@@ -1175,8 +1174,8 @@
 				7E488CB8413A4C60BD2E3697 /* controller.h */,
 				E08EB0AD127440D3BE5D08A9 /* processor.h */,
 				CE75B6CAB4474EF48FCACAD9 /* version.h */,
-				7D90F83129C200DA005337D2 /* ringbuffer.h */,
 				7D90F83229C202F5005337D2 /* delay.h */,
+				7D6898AA29C20982001525D5 /* ringbuffer.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -1219,10 +1218,10 @@
 		B21513240A724744823576F6 /* basicDelay */ = {
 			isa = PBXGroup;
 			children = (
+				7D6898AB29C20EA1001525D5 /* CMakeLists.txt */,
 				A3DF0838222648D99A9A1B47 /* Header Files */,
 				C43738934AD2472C8BB400BA /* Source Files */,
 				5A36F23AD9A04BCBB7E9016C /* Resources */,
-				F859678C24E544E381F7CA2E /* CMakeLists.txt */,
 			);
 			name = basicDelay;
 			sourceTree = "<group>";
@@ -1371,7 +1370,6 @@
 			isa = PBXGroup;
 			children = (
 				F811C07963B34AC68C7D8BF1 /* CMake Rules */,
-				E4DBEF81ADCD44139E13F4F7 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
