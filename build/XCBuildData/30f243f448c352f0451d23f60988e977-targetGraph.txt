@@ -1,0 +1,45 @@
+Target dependency graph (12 targets)
+pluginterfaces in basicDelay, no dependencies
+base in basicDelay, no dependencies
+sdk_common in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+sdk_hosting in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+validator in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+sdk_hosting in basicDelay (explicit)
+moduleinfotool in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+sdk_hosting in basicDelay (explicit)
+ZERO_CHECK in basicDelay, no dependencies
+basicDelay in basicDelay, depends on:
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+sdk in basicDelay (explicit)
+validator in basicDelay (explicit)
+moduleinfotool in basicDelay (explicit)
+ZERO_CHECK in basicDelay (explicit)
+ALL_BUILD in basicDelay, depends on:
+basicDelay in basicDelay (explicit)
+pluginterfaces in basicDelay (explicit)
+base in basicDelay (explicit)
+sdk_common in basicDelay (explicit)
+sdk in basicDelay (explicit)
+sdk_hosting in basicDelay (explicit)
+validator in basicDelay (explicit)
+moduleinfotool in basicDelay (explicit)
+ZERO_CHECK in basicDelay (explicit)
+cmake_VST_modules in basicDelay, no dependencies
+cmake_modules in basicDelay, no dependencies

@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8B06B58DAE7C483C80C323D3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A9E3B9FF174E459690305D34 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				55114C449F96121CFB095445 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B5A945BDFE9F4BC1A784938C /* PBXTargetDependency */,
+				7F27F64E846244F0A38CEF9F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A98F850C74FE49E0B2FEBB63 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5CAA0CCB592748ED8EEF6122 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5711846BE8E65F89D521C26A /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		041F4DB746654C9A9F7529F1 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXBuildFile; fileRef = D026D9F0D8D84550A1AD2736 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmessage.h */; };
+		1001A41287EB48E680EF79A1 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXBuildFile; fileRef = CB176EFE278A43D08D053E94 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstattributes.h */; };
+		129F01F008DA4EBC8805AFDC /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXBuildFile; fileRef = D77531E66C37471DAFAE1386 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipersistent.h */; };
+		13B8A5A2B11F4F9D9D112917 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXBuildFile; fileRef = 132A3E53E9724705A8D98A27 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.h */; };
+		22874B5DAA444387B5818633 /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E16C6FD8CF8643C69ECEF364 /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */; };
+		27D3B8B5B69F411BA9D6BDB2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXBuildFile; fileRef = 8A2C6E79F9204FED875E7B23 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ierrorcontext.h */; };
+		2C132ACA12E74A9CBCD771BE /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXBuildFile; fileRef = AE66DB7EB8B94C0BAF959A03 /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */; };
+		2E38B58484384C329AC00FE6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXBuildFile; fileRef = 28D9359770DF4DD6A15EACAA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */; };
+		325E077D103E43C2B52E497B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXBuildFile; fileRef = 5F7B81550056429E940C5CF6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/geoconstants.h */; };
+		33251B77F9474143834416D7 /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXBuildFile; fileRef = F3E62EFA7A3948FD9F3F1CBA /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugview.h */; };
+		3986974DCB2A4994A5856FBF /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXBuildFile; fileRef = 195268C4C20649B1B3FF533E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */; };
+		39CC97BEE5DE49B08758181B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXBuildFile; fileRef = E91A8A1A16624551801DCB5A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ucolorspec.h */; };
+		40FDD49C83BA42FEA87E69DD /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXBuildFile; fileRef = 54D4AC41BDA14F9ABFEBD62E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpshpack4.h */; };
+		462E92BF218A4BFA887220EF /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXBuildFile; fileRef = 5FA0FC7911FB41A19733DB0B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ftypes.h */; };
+		4AE2B3B3F7EF4F9A976F20A1 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXBuildFile; fileRef = 073625FD63E44B8290A8CA1C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipluginbase.h */; };
+		4BBF8A2135B848CE9A70771B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = 90020886BBDF4B3EACD43E81 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */; };
+		4F9E3135DB774B129B0FA87B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXBuildFile; fileRef = 885F4581097F4311B78B7B3B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */; };
+		58FF6526B037487DB9FEEC18 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXBuildFile; fileRef = 210EEE8472D74FD9B189E9BA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */; };
+		5A0F447A45C6458184FDD14C /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXBuildFile; fileRef = 00266EE3AFED464EBD2C83C6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */; };
+		5C17F4EF8A2F41DF9C172B31 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = 8A7B3077667842BCBFF5A8B6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */; };
+		5F53C3C4110146DC9EE37557 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXBuildFile; fileRef = CDE3C8F0D88D4919A4AADAF9 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcomponent.h */; };
+		61E5DBB02102442194F07104 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXBuildFile; fileRef = 7B7D98CE9A3B43A48DDCE75E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.h */; };
+		667D8DAC5EE840EB8A65F9FF /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXBuildFile; fileRef = 02025D332DEF41BE81A3DE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.h */; };
+		66F89103B3DC48D2BE7E793F /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXBuildFile; fileRef = C61EA6CCF0AE44EAB542C890 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/icloneable.h */; };
+		6B16ABE031C347B5BF6FC218 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXBuildFile; fileRef = 3A8A8665A3FC4AE699C30968 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */; };
+		7273804696A647579A17B32C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXBuildFile; fileRef = FEA2A69D13B549AD91E54346 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.cpp */; };
+		730CB13C8D074BB7B6DC0D15 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXBuildFile; fileRef = FDFBB5C19AB44C9C9F97C479 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstspeaker.h */; };
+		758B921F0377492B843D3E1C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXBuildFile; fileRef = B8AB2FEA15EF4BAAAE8CA120 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/typesizecheck.h */; };
+		78618121440847C59C156A5F /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXBuildFile; fileRef = 204BD36B4AFB445BA73118F3 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/coreiids.cpp */; };
+		787930AAFE024C699A214D8B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXBuildFile; fileRef = 9AC65D30917F412E8CB7A719 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstplugview.h */; };
+		7975BCA2C74240B18900652D /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXBuildFile; fileRef = 4C1B178AE5334ECBAB5422B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.cpp */; };
+		7C55EF9DD47C484EAA70622B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXBuildFile; fileRef = D2AED65A8E8D489B8C98540F /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */; };
+		7CBB2EADBE524A2DAC3FB020 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXBuildFile; fileRef = CE0EF765FF3247868ECE2E05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */; };
+		7D7914B6D01643DAAF37B844 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXBuildFile; fileRef = 51ACD29A27AD4DB281C61AF4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/pluginbasefwd.h */; };
+		7E9FE6D90E6E4008A8A3F0BA /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXBuildFile; fileRef = 36732D3C0A694535B9296901 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/iupdatehandler.h */; };
+		7FE6F67C683F4F7C9DB55C2B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXBuildFile; fileRef = EDF274BC8E254568B54D1C53 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/istringresult.h */; };
+		8400B2DEC01F414C825A9553 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXBuildFile; fileRef = EBC1D15804F44194887350F0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */; };
+		8466770E1D384E32A5948B82 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXBuildFile; fileRef = 2F826D4CD3DE4791B8D20810 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */; };
+		84B02FC7AAEE4D39820F6A7D /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXBuildFile; fileRef = A924CF82112F47B3B74D31B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.cpp */; };
+		900E2FC5503A49278AA9D7EC /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXBuildFile; fileRef = 6E5FA56C79824DEDAC478F05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */; };
+		90359B24617640C4B0FEFCF7 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXBuildFile; fileRef = 4A7FDEE6FC734C92899F6BB0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vsttypes.h */; };
+		9362C7F633F04DCB8C92D2AF /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXBuildFile; fileRef = DBE48AFFAA5146739FCB5E02 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ibstream.h */; };
+		A0D43D85986347AEBEDE1871 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXBuildFile; fileRef = 099D560C7E8F42479DD0CE3E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/keycodes.h */; };
+		A57FFEEC6CC344FABD97F976 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXBuildFile; fileRef = 7D079ACD8DCB405190E03B6D /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */; };
+		A964509757D947FE8AB4ED14 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXBuildFile; fileRef = 2281851A1A6B46FD8A151905 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */; };
+		AACA292059CE4B2380CCB6EE /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXBuildFile; fileRef = F22BED0A53CD45F8950F5D82 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fstrdefs.h */; };
+		AD03734932D24E2E8A9F0463 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXBuildFile; fileRef = A196679DA5FE4239BF79546A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fplatform.h */; };
+		C9C2E621E52C4FB0808F29B1 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXBuildFile; fileRef = AA88A8D20D514F3CAB6E578B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/smartpointer.h */; };
+		CD181474C3804714A4BB7009 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXBuildFile; fileRef = 2D3C4482F3D34012AC2960D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknownimpl.h */; };
+		D01751CDC4C74DD08B1E72B4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXBuildFile; fileRef = DF55DE6854534AEA82B9AB11 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */; };
+		D1137CDA7D3542A8B68B0B04 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXBuildFile; fileRef = 2FA39AF8E95E44548F2E15F6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstunits.h */; };
+		D163F900579340318D1F26D0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXBuildFile; fileRef = 47B4716279AA4C6ABD4E19D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fvariant.h */; };
+		D56E00D9E5164FB089F90A03 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXBuildFile; fileRef = 03A0EB5937834E41AF7BCA08 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */; };
+		DBB43044DE4040189EA8D045 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXBuildFile; fileRef = E555535222234499B46DD117 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpush.h */; };
+		E35B4D87BDA847D3A62137D1 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXBuildFile; fileRef = 6514E7A7B8D44C0491A62CB7 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */; };
+		E6F979386E6B4D76876F582F /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXBuildFile; fileRef = EAA69EFFFD6A4AB4BA9532B4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstevents.h */; };
+		EACBEF402D35449E86521F94 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXBuildFile; fileRef = 739168D477B7430285FEEE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpop.h */; };
+		EBAC8113E15F40CBAE1F2848 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXBuildFile; fileRef = 52E0C6D2E4DC490B85307910 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/futils.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		77B101B58755458F90E2F021 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B61D0F043F814B6A99AAB72F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0041A01269924D2997027D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631F3C3A39B74B0AB30F8F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAED000E3554F6E8FB9E735;
+			remoteInfo = pluginterfaces;
+		};
+		9A593BF7019C4B7F8005CA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631F3C3A39B74B0AB30F8F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F850C74FE49E0B2FEBB63;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8DE71DD8458478F9B5DEAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631F3C3A39B74B0AB30F8F2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98F850C74FE49E0B2FEBB63;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00266EE3AFED464EBD2C83C6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcontextmenu.h; path = vst/ivstcontextmenu.h; sourceTree = SOURCE_ROOT; };
+		02025D332DEF41BE81A3DE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conststringtable.h; path = base/conststringtable.h; sourceTree = SOURCE_ROOT; };
+		03A0EB5937834E41AF7BCA08 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprocesscontext.h; path = vst/ivstprocesscontext.h; sourceTree = SOURCE_ROOT; };
+		073625FD63E44B8290A8CA1C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipluginbase.h; path = base/ipluginbase.h; sourceTree = SOURCE_ROOT; };
+		099D560C7E8F42479DD0CE3E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = keycodes.h; path = base/keycodes.h; sourceTree = SOURCE_ROOT; };
+		132A3E53E9724705A8D98A27 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknown.h; path = base/funknown.h; sourceTree = SOURCE_ROOT; };
+		195268C4C20649B1B3FF533E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidilearn.h; path = vst/ivstmidilearn.h; sourceTree = SOURCE_ROOT; };
+		204BD36B4AFB445BA73118F3 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coreiids.cpp; path = base/coreiids.cpp; sourceTree = SOURCE_ROOT; };
+		210EEE8472D74FD9B189E9BA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprefetchablesupport.h; path = vst/ivstprefetchablesupport.h; sourceTree = SOURCE_ROOT; };
+		2281851A1A6B46FD8A151905 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsthostapplication.h; path = vst/ivsthostapplication.h; sourceTree = SOURCE_ROOT; };
+		28D9359770DF4DD6A15EACAA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterchanges.h; path = vst/ivstparameterchanges.h; sourceTree = SOURCE_ROOT; };
+		2D3C4482F3D34012AC2960D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknownimpl.h; path = base/funknownimpl.h; sourceTree = SOURCE_ROOT; };
+		2F826D4CD3DE4791B8D20810 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstinterappaudio.h; path = vst/ivstinterappaudio.h; sourceTree = SOURCE_ROOT; };
+		2FA39AF8E95E44548F2E15F6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstunits.h; path = vst/ivstunits.h; sourceTree = SOURCE_ROOT; };
+		36732D3C0A694535B9296901 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iupdatehandler.h; path = base/iupdatehandler.h; sourceTree = SOURCE_ROOT; };
+		3A8A8665A3FC4AE699C30968 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstaudioprocessor.h; path = vst/ivstaudioprocessor.h; sourceTree = SOURCE_ROOT; };
+		47B4716279AA4C6ABD4E19D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fvariant.h; path = base/fvariant.h; sourceTree = SOURCE_ROOT; };
+		4A7FDEE6FC734C92899F6BB0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsttypes.h; path = vst/vsttypes.h; sourceTree = SOURCE_ROOT; };
+		4C1B178AE5334ECBAB5422B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = funknown.cpp; path = base/funknown.cpp; sourceTree = SOURCE_ROOT; };
+		51ACD29A27AD4DB281C61AF4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginbasefwd.h; path = base/pluginbasefwd.h; sourceTree = SOURCE_ROOT; };
+		52E0C6D2E4DC490B85307910 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = futils.h; path = base/futils.h; sourceTree = SOURCE_ROOT; };
+		54D4AC41BDA14F9ABFEBD62E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpshpack4.h; path = vst/vstpshpack4.h; sourceTree = SOURCE_ROOT; };
+		5F7B81550056429E940C5CF6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geoconstants.h; path = base/geoconstants.h; sourceTree = SOURCE_ROOT; };
+		5FA0FC7911FB41A19733DB0B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftypes.h; path = base/ftypes.h; sourceTree = SOURCE_ROOT; };
+		6514E7A7B8D44C0491A62CB7 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidicontrollers.h; path = vst/ivstmidicontrollers.h; sourceTree = SOURCE_ROOT; };
+		6E5FA56C79824DEDAC478F05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstrepresentation.h; path = vst/ivstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		739168D477B7430285FEEE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpop.h; path = base/falignpop.h; sourceTree = SOURCE_ROOT; };
+		7B7D98CE9A3B43A48DDCE75E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ustring.h; path = base/ustring.h; sourceTree = SOURCE_ROOT; };
+		7D079ACD8DCB405190E03B6D /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstautomationstate.h; path = vst/ivstautomationstate.h; sourceTree = SOURCE_ROOT; };
+		84F070CF411942A984B735F7 /* pluginterfaces */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpluginterfaces.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		885F4581097F4311B78B7B3B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetkeys.h; path = vst/vstpresetkeys.h; sourceTree = SOURCE_ROOT; };
+		8A2C6E79F9204FED875E7B23 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ierrorcontext.h; path = base/ierrorcontext.h; sourceTree = SOURCE_ROOT; };
+		8A7B3077667842BCBFF5A8B6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsteditcontroller.h; path = vst/ivsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		90020886BBDF4B3EACD43E81 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstpluginterfacesupport.h; path = vst/ivstpluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		9AC65D30917F412E8CB7A719 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstplugview.h; path = vst/ivstplugview.h; sourceTree = SOURCE_ROOT; };
+		A196679DA5FE4239BF79546A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fplatform.h; path = base/fplatform.h; sourceTree = SOURCE_ROOT; };
+		A924CF82112F47B3B74D31B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustring.cpp; path = base/ustring.cpp; sourceTree = SOURCE_ROOT; };
+		AA88A8D20D514F3CAB6E578B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = smartpointer.h; path = base/smartpointer.h; sourceTree = SOURCE_ROOT; };
+		AE66DB7EB8B94C0BAF959A03 /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugviewcontentscalesupport.h; path = gui/iplugviewcontentscalesupport.h; sourceTree = SOURCE_ROOT; };
+		B8AB2FEA15EF4BAAAE8CA120 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typesizecheck.h; path = base/typesizecheck.h; sourceTree = SOURCE_ROOT; };
+		C61EA6CCF0AE44EAB542C890 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = icloneable.h; path = base/icloneable.h; sourceTree = SOURCE_ROOT; };
+		CB176EFE278A43D08D053E94 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstattributes.h; path = vst/ivstattributes.h; sourceTree = SOURCE_ROOT; };
+		CDE3C8F0D88D4919A4AADAF9 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcomponent.h; path = vst/ivstcomponent.h; sourceTree = SOURCE_ROOT; };
+		CE0EF765FF3247868ECE2E05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstchannelcontextinfo.h; path = vst/ivstchannelcontextinfo.h; sourceTree = SOURCE_ROOT; };
+		D026D9F0D8D84550A1AD2736 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmessage.h; path = vst/ivstmessage.h; sourceTree = SOURCE_ROOT; };
+		D2AED65A8E8D489B8C98540F /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstphysicalui.h; path = vst/ivstphysicalui.h; sourceTree = SOURCE_ROOT; };
+		D77531E66C37471DAFAE1386 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipersistent.h; path = base/ipersistent.h; sourceTree = SOURCE_ROOT; };
+		DBE48AFFAA5146739FCB5E02 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ibstream.h; path = base/ibstream.h; sourceTree = SOURCE_ROOT; };
+		DF55DE6854534AEA82B9AB11 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterfunctionname.h; path = vst/ivstparameterfunctionname.h; sourceTree = SOURCE_ROOT; };
+		E16C6FD8CF8643C69ECEF364 /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E555535222234499B46DD117 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpush.h; path = base/falignpush.h; sourceTree = SOURCE_ROOT; };
+		E91A8A1A16624551801DCB5A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ucolorspec.h; path = base/ucolorspec.h; sourceTree = SOURCE_ROOT; };
+		EAA69EFFFD6A4AB4BA9532B4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstevents.h; path = vst/ivstevents.h; sourceTree = SOURCE_ROOT; };
+		EBC1D15804F44194887350F0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstnoteexpression.h; path = vst/ivstnoteexpression.h; sourceTree = SOURCE_ROOT; };
+		EDF274BC8E254568B54D1C53 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = istringresult.h; path = base/istringresult.h; sourceTree = SOURCE_ROOT; };
+		F22BED0A53CD45F8950F5D82 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstrdefs.h; path = base/fstrdefs.h; sourceTree = SOURCE_ROOT; };
+		F3E62EFA7A3948FD9F3F1CBA /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugview.h; path = gui/iplugview.h; sourceTree = SOURCE_ROOT; };
+		F535A66C7A1C45D5A58F80BC /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FDFBB5C19AB44C9C9F97C479 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstspeaker.h; path = vst/vstspeaker.h; sourceTree = SOURCE_ROOT; };
+		FEA2A69D13B549AD91E54346 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conststringtable.cpp; path = base/conststringtable.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01AEEE2FA7C43A3A897EE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0804EEEA4F524682803E63F2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1CD646FB05B448D28BFB5ADB /* pluginterfaces */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		1CD646FB05B448D28BFB5ADB /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				67A5209D05F745CCBEEDF06D /* Source Files */,
+				63A73910A0454EFB95552037 /* Header Files */,
+				E16C6FD8CF8643C69ECEF364 /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		308368E8DE224362A108B417 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C94B5F3566654F849F240F22 /* CMake Rules */,
+				F535A66C7A1C45D5A58F80BC /* /Users/alfiebradic/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		63A73910A0454EFB95552037 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				02025D332DEF41BE81A3DE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.h */,
+				739168D477B7430285FEEE3A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpop.h */,
+				E555535222234499B46DD117 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/falignpush.h */,
+				A196679DA5FE4239BF79546A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fplatform.h */,
+				F22BED0A53CD45F8950F5D82 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fstrdefs.h */,
+				5FA0FC7911FB41A19733DB0B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ftypes.h */,
+				132A3E53E9724705A8D98A27 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.h */,
+				2D3C4482F3D34012AC2960D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknownimpl.h */,
+				52E0C6D2E4DC490B85307910 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/futils.h */,
+				47B4716279AA4C6ABD4E19D6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/fvariant.h */,
+				5F7B81550056429E940C5CF6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/geoconstants.h */,
+				DBE48AFFAA5146739FCB5E02 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ibstream.h */,
+				C61EA6CCF0AE44EAB542C890 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/icloneable.h */,
+				8A2C6E79F9204FED875E7B23 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ierrorcontext.h */,
+				D77531E66C37471DAFAE1386 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipersistent.h */,
+				073625FD63E44B8290A8CA1C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ipluginbase.h */,
+				EDF274BC8E254568B54D1C53 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/istringresult.h */,
+				36732D3C0A694535B9296901 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/iupdatehandler.h */,
+				099D560C7E8F42479DD0CE3E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/keycodes.h */,
+				51ACD29A27AD4DB281C61AF4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/pluginbasefwd.h */,
+				AA88A8D20D514F3CAB6E578B /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/smartpointer.h */,
+				B8AB2FEA15EF4BAAAE8CA120 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/typesizecheck.h */,
+				E91A8A1A16624551801DCB5A /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ucolorspec.h */,
+				7B7D98CE9A3B43A48DDCE75E /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.h */,
+				F3E62EFA7A3948FD9F3F1CBA /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugview.h */,
+				AE66DB7EB8B94C0BAF959A03 /* /Users/alfiebradic/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */,
+				CB176EFE278A43D08D053E94 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstattributes.h */,
+				3A8A8665A3FC4AE699C30968 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */,
+				7D079ACD8DCB405190E03B6D /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */,
+				CE0EF765FF3247868ECE2E05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */,
+				CDE3C8F0D88D4919A4AADAF9 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcomponent.h */,
+				00266EE3AFED464EBD2C83C6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */,
+				8A7B3077667842BCBFF5A8B6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */,
+				EAA69EFFFD6A4AB4BA9532B4 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstevents.h */,
+				2281851A1A6B46FD8A151905 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */,
+				2F826D4CD3DE4791B8D20810 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */,
+				D026D9F0D8D84550A1AD2736 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmessage.h */,
+				6514E7A7B8D44C0491A62CB7 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */,
+				195268C4C20649B1B3FF533E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */,
+				EBC1D15804F44194887350F0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */,
+				28D9359770DF4DD6A15EACAA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */,
+				DF55DE6854534AEA82B9AB11 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */,
+				D2AED65A8E8D489B8C98540F /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */,
+				90020886BBDF4B3EACD43E81 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */,
+				9AC65D30917F412E8CB7A719 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstplugview.h */,
+				210EEE8472D74FD9B189E9BA /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */,
+				03A0EB5937834E41AF7BCA08 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */,
+				6E5FA56C79824DEDAC478F05 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */,
+				2FA39AF8E95E44548F2E15F6 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/ivstunits.h */,
+				885F4581097F4311B78B7B3B /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */,
+				54D4AC41BDA14F9ABFEBD62E /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstpshpack4.h */,
+				FDFBB5C19AB44C9C9F97C479 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vstspeaker.h */,
+				4A7FDEE6FC734C92899F6BB0 /* /Users/alfiebradic/vst3sdk/pluginterfaces/vst/vsttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		67A5209D05F745CCBEEDF06D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA2A69D13B549AD91E54346 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				204BD36B4AFB445BA73118F3 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				4C1B178AE5334ECBAB5422B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				A924CF82112F47B3B74D31B2 /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		73CE54729C3046B1A3AAB20C = {
+			isa = PBXGroup;
+			children = (
+				0804EEEA4F524682803E63F2 /* Libraries */,
+				308368E8DE224362A108B417 /* ALL_BUILD */,
+				B1FAA62068384000A8A2BD21 /* Products */,
+				E25D0E58B7364BDBAA6BC347 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FAA62068384000A8A2BD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F070CF411942A984B735F7 /* pluginterfaces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94B5F3566654F849F240F22 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E25D0E58B7364BDBAA6BC347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAED000E3554F6E8FB9E735 /* pluginterfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056D1C27FBF4232BD8FEDAD /* Build configuration list for PBXNativeTarget "pluginterfaces" */;
+			buildPhases = (
+				A335F4E6BBEC4CBA8A42E6F6 /* Sources */,
+				D01AEEE2FA7C43A3A897EE64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				453329AB4F4D436F8F1E57F9 /* PBXTargetDependency */,
+			);
+			name = pluginterfaces;
+			productName = pluginterfaces;
+			productReference = 84F070CF411942A984B735F7 /* pluginterfaces */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631F3C3A39B74B0AB30F8F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = B4D09C089D7D4400A6F7FE44 /* Build configuration list for PBXProject "smtg_pluginterfaces" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				77B101B58755458F90E2F021 /* Debug */,
+				B61D0F043F814B6A99AAB72F /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 73CE54729C3046B1A3AAB20C;
+			projectDirPath = /Users/alfiebradic/vst3sdk/pluginterfaces;
+			projectRoot = "";
+			targets = (
+				8B06B58DAE7C483C80C323D3 /* ALL_BUILD */,
+				A98F850C74FE49E0B2FEBB63 /* ZERO_CHECK */,
+				3DAED000E3554F6E8FB9E735 /* pluginterfaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		55114C449F96121CFB095445 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5711846BE8E65F89D521C26A /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces
+  make -f /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces
+  make -f /Users/alfiebradic/Documents/basicDelay/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A335F4E6BBEC4CBA8A42E6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7273804696A647579A17B32C /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				78618121440847C59C156A5F /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				7975BCA2C74240B18900652D /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				84B02FC7AAEE4D39820F6A7D /* /Users/alfiebradic/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		453329AB4F4D436F8F1E57F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F850C74FE49E0B2FEBB63 /* ZERO_CHECK */;
+			targetProxy = 9A593BF7019C4B7F8005CA90 /* PBXContainerItemProxy */;
+		};
+		7F27F64E846244F0A38CEF9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98F850C74FE49E0B2FEBB63 /* ZERO_CHECK */;
+			targetProxy = B8DE71DD8458478F9B5DEAF8 /* PBXContainerItemProxy */;
+		};
+		B5A945BDFE9F4BC1A784938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAED000E3554F6E8FB9E735 /* pluginterfaces */;
+			targetProxy = 0041A01269924D2997027D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AA7A3771F9E4ED096C326DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alfiebradic/Documents/basicDelay/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alfiebradic/vst3sdk,/Users/alfiebradic/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alfiebradic/Documents/basicDelay/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		304BA263F2F34B03B94AD44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/alfiebradic/Documents/basicDelay/build/build;
+			};
+			name = Debug;
+		};
+		3106C25AB24648E083AD4149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/alfiebradic/Documents/basicDelay/build/build;
+			};
+			name = Release;
+		};
+		329C0B5EBD4E425C8AE3F3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/alfiebradic/Documents/basicDelay/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/alfiebradic/vst3sdk,/Users/alfiebradic/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/alfiebradic/Documents/basicDelay/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3859CB675E1D4FBF8D837BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4349CB9C4E344A4F94B58B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		44EF733C39CC40D1BC84C323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		48FB649DF41840A4A7170AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CAA0CCB592748ED8EEF6122 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4349CB9C4E344A4F94B58B8E /* Debug */,
+				44EF733C39CC40D1BC84C323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A9E3B9FF174E459690305D34 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3859CB675E1D4FBF8D837BBA /* Debug */,
+				48FB649DF41840A4A7170AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4D09C089D7D4400A6F7FE44 /* Build configuration list for PBXProject "smtg_pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304BA263F2F34B03B94AD44C /* Debug */,
+				3106C25AB24648E083AD4149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C056D1C27FBF4232BD8FEDAD /* Build configuration list for PBXNativeTarget "pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA7A3771F9E4ED096C326DA /* Debug */,
+				329C0B5EBD4E425C8AE3F3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631F3C3A39B74B0AB30F8F2D /* Project object */;
+}

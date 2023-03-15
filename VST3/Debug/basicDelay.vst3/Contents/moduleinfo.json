@@ -1,0 +1,51 @@
+{
+  "Name": "basicDelay",
+  "Version": "1.0.0.0",
+  "Factory Info": {
+    "Vendor": "Alfie Bradic",
+    "URL": "twitter.com/alfiebradic",
+    "E-Mail": "mailto:alfiebradic@googlemail.com",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "283136A6494E59A7850EEF2AD190C146",
+      "Category": "Audio Module Class",
+      "Name": "basicDelay",
+      "Vendor": "Alfie Bradic",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.7",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 1,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+        {
+          "Scale Factor": 2,
+          "Path": "Contents/Resources/Snapshots/283136A6494E59A7850EEF2AD190C146_snapshot_2.0x.png",
+        },
+        {
+          "Scale Factor": 1,
+          "Path": "Contents/Resources/Snapshots/283136A6494E59A7850EEF2AD190C146_snapshot.png",
+        },
+      ],
+    },
+    {
+      "CID": "82ADB566E0D55DC69B66540750CE225A",
+      "Category": "Component Controller Class",
+      "Name": "basicDelayController",
+      "Vendor": "Alfie Bradic",
+      "Version": "1.0.0.0",
+      "SDKVersion": "VST 3.7.7",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}

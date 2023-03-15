@@ -1,0 +1,90 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7b09ab903401ec73398f01f8db4a661e4"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f74c9fda180edf7a8398887c23f2905f90"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7eb5de06f9c20d162c54244492c53d067"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7a6815cfc817037ef26ac432fa5eff626"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f77a54e825a4b1e69986d2fad2c5cf5c46"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7e6e0fe2db2125ccedf37c161c6e222ea"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7c5d96185fb61e28f65900565f5f4b03f"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f75ffb8c07ea9f514be3f481461f19363c"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f761816a4998c1303171c4cd6b6c354d5d"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f71b043ebb6e5652f32594318995cc42d8"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7db0c70702407515afd66289b5394bc9a"
+    },
+    {
+      "guid" : "80a8568310b2e2fb72013155d6d793f7dd5923f4af370b17ad90d20a18b4012a"
+    }
+  ],
+  "containerPath" : "/Users/alfiebradic/Documents/basicDelay/build/basicDelay.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/alfiebradic/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/alfiebradic/Library/Developer/Xcode/DerivedData/basicDelay-cgurimbwxxxauecmwrroxyrwfzig/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/alfiebradic/Library/Developer/Xcode/DerivedData/basicDelay-cgurimbwxxxauecmwrroxyrwfzig/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
