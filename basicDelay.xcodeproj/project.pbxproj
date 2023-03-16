@@ -563,7 +563,6 @@
 		7C084C8F34E44705AB88D808 /* silenceprocessing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = silenceprocessing.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/processing/silenceprocessing.cpp; sourceTree = "<absolute>"; };
 		7D6898AA29C20982001525D5 /* ringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ringbuffer.h; path = source/ringbuffer.h; sourceTree = "<group>"; };
 		7D6898AB29C20EA1001525D5 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = CMakeLists.txt; path = build/CMakeLists.txt; sourceTree = "<group>"; };
-		7D90F83229C202F5005337D2 /* delay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = delay.h; sourceTree = "<group>"; };
 		7E488CB8413A4C60BD2E3697 /* controller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controller.h; path = source/controller.h; sourceTree = SOURCE_ROOT; };
 		7F4BDE48274C40C99F369643 /* processformat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processformat.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/processing/processformat.h; sourceTree = "<absolute>"; };
 		7F761DB7ECC1466A8F600AFA /* plugcompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plugcompat.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/general/plugcompat.cpp; sourceTree = "<absolute>"; };
@@ -671,7 +670,7 @@
 		D18C84E143234D5F82EED8D9 /* pluginview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginview.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/common/pluginview.h; sourceTree = "<absolute>"; };
 		D25B96E522C24EB085DEBECC /* fdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdebug.h; path = /Users/alfiebradic/vst3sdk/base/source/fdebug.h; sourceTree = "<absolute>"; };
 		D2BC7B6420DD4AA9B2CE8F1A /* entry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entry.cpp; path = source/entry.cpp; sourceTree = SOURCE_ROOT; };
-		D2F9635D9A9B4DF8A69C060F /* basicDelay.bundle/Contents/MacOS/basicDelay */ = {isa = PBXFileReference; explicitFileType = "wrapper.plug-in"; name = basicDelay.bundle/Contents/MacOS/basicDelay; path = basicDelay.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F9635D9A9B4DF8A69C060F /* basicDelay.vst3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = basicDelay.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AE08C934B343C6B7176F86 /* moduleinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moduleinit.cpp; path = /Users/alfiebradic/vst3sdk/public.sdk/source/main/moduleinit.cpp; sourceTree = "<absolute>"; };
 		D55073F2ACF64651A7A55A86 /* fstrdefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstrdefs.h; path = /Users/alfiebradic/vst3sdk/pluginterfaces/base/fstrdefs.h; sourceTree = "<absolute>"; };
 		D671928E2E494331917D6BD0 /* sidechainarrangement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sidechainarrangement.h; path = /Users/alfiebradic/vst3sdk/public.sdk/source/vst/testsuite/bus/sidechainarrangement.h; sourceTree = "<absolute>"; };
@@ -1031,7 +1030,7 @@
 			isa = PBXGroup;
 			children = (
 				90502144273D478D914565D9 /* libbase.a */,
-				D2F9635D9A9B4DF8A69C060F /* basicDelay.bundle/Contents/MacOS/basicDelay */,
+				D2F9635D9A9B4DF8A69C060F /* basicDelay.vst3 */,
 				32601A59D8A042A9BC86AAAD /* moduleinfotool */,
 				4926555BD1C348F4910BDB10 /* libpluginterfaces.a */,
 				817F5F05AD0F43C1AD859ED5 /* libsdk.a */,
@@ -1174,7 +1173,6 @@
 				7E488CB8413A4C60BD2E3697 /* controller.h */,
 				E08EB0AD127440D3BE5D08A9 /* processor.h */,
 				CE75B6CAB4474EF48FCACAD9 /* version.h */,
-				7D90F83229C202F5005337D2 /* delay.h */,
 				7D6898AA29C20982001525D5 /* ringbuffer.h */,
 			);
 			name = "Header Files";
@@ -1528,7 +1526,7 @@
 			);
 			name = basicDelay;
 			productName = basicDelay;
-			productReference = D2F9635D9A9B4DF8A69C060F /* basicDelay.bundle/Contents/MacOS/basicDelay */;
+			productReference = D2F9635D9A9B4DF8A69C060F /* basicDelay.vst3 */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -2011,6 +2009,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = /Users/alfiebradic/Documents/basicDelay/build/VST3/Release;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_POSTPROCESSING = YES;
 				EXECUTABLE_PREFIX = "";
@@ -2035,6 +2034,7 @@
 				INFOPLIST_FILE = /Users/alfiebradic/Documents/basicDelay/build/CMakeFiles/basicDelay.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = BUNDLE;
+				MARKETING_VERSION = 1.0.0.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
 				OTHER_CPLUSPLUSFLAGS = (
@@ -2159,6 +2159,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = /Users/alfiebradic/Documents/basicDelay/build/VST3/Debug;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = NO;
 				EXECUTABLE_PREFIX = "";
@@ -2183,6 +2184,7 @@
 				INFOPLIST_FILE = /Users/alfiebradic/Documents/basicDelay/build/CMakeFiles/basicDelay.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = BUNDLE;
+				MARKETING_VERSION = 1.0.0.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
 				OTHER_CPLUSPLUSFLAGS = (
